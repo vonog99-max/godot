@@ -1,0 +1,16 @@
+# robots.txt for blackgravity.vercel.app
+
+# Allow Google AI systems (Gemini / Google-Extended)
+User-agent: Google-Extended
+Disallow:
+
+# Allow normal Google Search crawler
+User-agent: Googlebot
+Disallow:
+
+# Allow all bots and crawlers
+User-agent: *
+Disallow:
+
+# Sitemap location
+Sitemap: https://blackgravity.vercel.app/sitemap.xml
